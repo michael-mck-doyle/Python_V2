@@ -14,3 +14,11 @@
 	- Calculate how many seconds are in a year.
 
 '''
+
+print ("hello world!")
+
+print (1 + 2)
+
+x = 2 * 10
+print(x)
+
