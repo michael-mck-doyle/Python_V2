@@ -22,3 +22,19 @@ print (1 + 2)
 x = 2 * 10
 print(x)
 
+
+# user input is *always* gathered as a string
+# and needs to be converted if we want something else
+
+age = input("Please enter your age: ")
+print(type(age)) # checking up on current type
+
+age = int(age)
+print(type(age)) # successfully converted the user input to an integer
+
+years = input("Choose a number between 1 - 10 years: ")
+num_years = int(years)
+
+seconds = num_years * 365 * 24 * 60 * 60
+
+print("The number of seconds in " + years + " years is " + str(seconds) + " seconds")
