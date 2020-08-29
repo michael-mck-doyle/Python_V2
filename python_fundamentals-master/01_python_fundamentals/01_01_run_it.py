@@ -12,7 +12,6 @@
         press q to exit.
 	- Use the interpreter to perform simple math.
 	- Calculate how many seconds are in a year.
-
 '''
 
 print ("hello world!")
@@ -38,3 +37,6 @@ num_years = int(years)
 seconds = num_years * 365 * 24 * 60 * 60
 
 print("The number of seconds in " + years + " years is " + str(seconds) + " seconds")
+
+print (type(years))
+print(type(years))
