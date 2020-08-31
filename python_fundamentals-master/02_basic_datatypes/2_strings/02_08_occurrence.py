@@ -7,3 +7,10 @@ Letter input: o
 Result: 4
 
 '''
+
+user_string = input("Please enter a short sentence: ")
+user_letter = input("Please enter one letter: ")
+
+x = user_string.find(user_letter)
+
+print(x)
