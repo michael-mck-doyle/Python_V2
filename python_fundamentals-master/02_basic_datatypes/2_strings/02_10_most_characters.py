@@ -16,14 +16,11 @@ user_string1 = input("Please enter a word: ")
 user_string2 = input("Please enter a word: ")
 user_string3 = input("Please enter a word: ")
 
-a = 0
-
-
 user_string = [user_string1, user_string2, user_string3]
 
+for i in user_string:
+    print(i), print(len(i))
 
-user_string = user_string.sort
-print(user_string)
 
 
 x = len(user_string1)
