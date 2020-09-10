@@ -1,3 +1,18 @@
+numbers = [1, 2, 3]
+#numbers += 4
+numbers.extend([5, 6])
+numbers.insert(0, 33)
+numbers += [7, 8]
+numbers.append(9)
+#numbers.add(8)
+print(numbers)
+
+
+numbers = [42, 1, 10]
+numbers.append(5)
+numbers.remove(1)
+numbers.sort()
+print(numbers)
 
 
 list1 = ['physics', 'chemistry', 1997, 2000];
@@ -61,6 +76,8 @@ bucket_list += ['live in Barcelona', 'work at Google']
 # this is due to the fact that we are *mutating* the list in place
 bucket_list.remove(bucket_list[-1])
 
+bucket_list[0] += 'Wednesday'
+print(bucket_list)
 
 for task in bucket_list:
     print(task)
