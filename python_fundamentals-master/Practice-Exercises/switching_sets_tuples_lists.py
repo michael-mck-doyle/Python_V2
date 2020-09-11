@@ -23,3 +23,18 @@ print(set_to_tuple)
 ('http://www.example.com', 'http://www.setsareuseful.com') # tuples use regular parenthesis
 '''
 
+users = {'mary': 22, 'caroline': 26, 'harry': 22}
+
+dict_to_list = list(users)  # converts a dictionary to a list
+print(dict_to_list)
+
+dict_to_tuple = tuple(users)  # converts a dictionary to a tuple
+print(dict_to_tuple)
+
+dict_to_set = set(users)  # converts a dictionary to a tuple
+print(dict_to_set)
+
+car_brands = ['toyota', 'VW', 'honda', 'BMW']
+
+list_to_dict = dict(car_brands)
+print(list_to_dict)

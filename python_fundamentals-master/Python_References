@@ -83,6 +83,9 @@ __ Dictionaries __
 5.5. Dictionaries - https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 Dictionary Methods - https://www.programiz.com/python-programming/methods/dictionary/copy
 Python Dictionaries - https://www.w3schools.com/python/python_dictionaries.asp
+An alternative to using 'items()'' to iterate over a dictionary - https://docs.quantifiedcode.com/python-anti-patterns/readability/not_using_items_to_iterate_over_a_dictionary.html#anti-pattern
+Python Dictionary References - https://www.programiz.com/python-programming/methods/dictionary
+Python Dictionary Methods - https://www.w3schools.com/python/python_ref_dictionary.asp
 
 
 __ Flow Control - Conditionals and Loops
