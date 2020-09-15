@@ -1,16 +1,23 @@
 
+
+
 # As an exercise, write a function that takes a string as an argument and displays the letters backward, one per line.
 
-'''
+
 word = input("Please enter a word: ")
 
-index = len(word)
-word_reverse = list()
-for i in word:
-    word_reverse += i
-    index = index -1
-    print(word_reverse)
-'''
+x = 0
+
+
+while x < len(word):
+    i = 1
+    print(word[len(word) - i])
+
+    i = i + 1
+    x = x + 1
+
+
+
 '''
 users = {'mary': 22, 'caroline': 26, 'harry': 20}
 # let's make them age for 30 years each!
