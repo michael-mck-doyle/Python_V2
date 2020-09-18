@@ -10,6 +10,23 @@ come back to this task after you have learned about loops)
 
 '''
 
+num = 0
+num_list = []
+while num < 10:
+    num_enter = int(input("Enter a number: "))
+    num_list.append(num_enter)
+    num = num + 1
+
+max_num = max(num_list)
+print(max_num)
+
+x = 0
+for i in num_list:
+    x = x + i
+print(x)
+
+
+'''
 num_1 = int(input("Enter a number: "))
 num_2 = int(input("Enter a number: "))
 num_3 = int(input("Enter a number: "))
@@ -17,14 +34,7 @@ num_4 = int(input("Enter a number: "))
 num_5 = int(input("Enter a number: "))
 
 num_list = [num_1, num_2, num_3, num_4, num_5]
+'''
 
-max_num = max(num_list)
-print(max_num)
 
-x = 0
-
-for i in num_list:
-    x = x + i
-
-print(x)
 
