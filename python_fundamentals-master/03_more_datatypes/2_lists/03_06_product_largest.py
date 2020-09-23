@@ -17,9 +17,11 @@ while num < 10:
     num_list.append(num_enter)
     num = num + 1
 
+# prints the largest number in the list
 max_num = max(num_list)
 print(max_num)
 
+# prints the sum of all the numbers in the list
 x = 0
 for i in num_list:
     x = x + i
