@@ -5,3 +5,13 @@ occurrences.
 
 '''
 
+sentence = input("Please enter a sentence: ")
+
+x = sentence.split(" ")
+
+
+for i in sentence:
+    sentence.strip(i)
+
+
+# Hello, Hello, is anyone there? Is today a good day to say hello?
