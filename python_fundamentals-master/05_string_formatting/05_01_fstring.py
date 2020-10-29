@@ -18,3 +18,40 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+print("1. Using 'For loop' and list and dictionary methods")
+print()
+for author_quote in famous_quotes:  # iterates through each item in a list
+    author_name = author_quote.get("full_name")  # gets the authors name value as a string from the dictionary
+    full_name = author_name.split(" ")  # creates a dictionary containing first and last names as separate items
+    first_name = (full_name[0])  # assigns first item in the list to first_name
+    last_name = (full_name[1])  # assigns second item in the list to first_name
+    author_quote = author_quote.get("quote")  # gets the quote value as a string from the dictionary
+    print(f"\"{author_quote}\" - {last_name}, {first_name}")
+
+
+def my_name(y):
+    author_name = y.get("full_name")  # gets the authors name value as a string from the dictionary
+    full_name = author_name.split(" ")  # creates a dictionary containing first and last names as separate items
+    first_name = (full_name[0])  # assigns first item in the list to first_name
+    last_name = (full_name[1])  # assigns second item in the list to first_name
+
+    return last_name, first_name
+
+
+print()
+print()
+
+print("2. Using a Function for extracting first and last names")
+print()
+for author_quote in famous_quotes:  # iterates through each item in a list
+    x = my_name(author_quote)
+    author_quote = author_quote.get("quote")  # gets the quote value as a string from the dictionary
+
+    print(f"\"{author_quote}\" - {x[0]}, {x[1]}")
+
+
+
+
+
+
