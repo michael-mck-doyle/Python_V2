@@ -29,6 +29,12 @@ for author_quote in famous_quotes:  # iterates through each item in a list
     author_quote = author_quote.get("quote")  # gets the quote value as a string from the dictionary
     print(f"\"{author_quote}\" - {last_name}, {first_name}")
 
+print()
+print()
+
+print("2. Using a Function for extracting first and last names")
+print()
+
 
 def my_name(y):
     author_name = y.get("full_name")  # gets the authors name value as a string from the dictionary
@@ -39,11 +45,6 @@ def my_name(y):
     return last_name, first_name
 
 
-print()
-print()
-
-print("2. Using a Function for extracting first and last names")
-print()
 for author_quote in famous_quotes:  # iterates through each item in a list
     x = my_name(author_quote)
     author_quote = author_quote.get("quote")  # gets the quote value as a string from the dictionary
