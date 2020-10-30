@@ -50,3 +50,5 @@ print("The number entered is divisible exactly by either 4 OR 7: " + str(a))
 print("The number entered is divisible exactly by both 4 AND 7: " + str(b))
 
 
+
+

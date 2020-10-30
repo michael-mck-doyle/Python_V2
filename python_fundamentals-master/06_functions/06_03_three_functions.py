@@ -7,10 +7,9 @@ at least one other function and use the return value to do something.
 # zombie apocalypse - a zombie has been invited to a party.  How many people in town get infected?
 
 
-
-
 def zombie_apocalypse(people_at_party):
     new_zombies = people_at_party * 5
+
     def zombie_apocalypse1(zombo1):
         new_zombies = zombo1 * 7
         def zombie_apocalypse2(zombo2):
